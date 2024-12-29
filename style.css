@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.home .left {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.home .right {
+    width: 70%;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    border-radius: 5%;
+    margin-bottom: 0px;
+}
+
+.links a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.publications ul, .posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.publications li, .posts li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.cover {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
